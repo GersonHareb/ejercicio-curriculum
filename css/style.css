@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,600&display=swap');
+
+body {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1000px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(rgba(139, 134, 134, 0.116), rgba(36, 35, 35, 0.322));
+}
+
+header div{
+  padding-left: 28px;
+}
+
+header img {
+  max-width: 300px;
+  z-index: -1;
+   filter: grayscale(100%);
+}
+
+
+
+h2 {
+  background-color: #696565;
+  color: #f3faff;
+  padding: 9px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  border-radius: 10px;
+}
+
+button{
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor:pointer
+}
+
+section {
+  min-height: 180px;
+}
+
+.fecha {
+  display: flex;
+}
+
+.fecha-contenido {
+  margin-left: 5px;
+}
+
+.fecha-contenido p:last-child {
+  margin-top: -13px;
+}
+
+footer {
+  background-color: #696565;
+  color: #f3faff;
+  padding: 7px;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+}
+
+footer p {
+  margin: -0.5px;
+  font-size: 25px;
+}
+
+footer a i {
+  margin-left: 20px;
+  margin-top: 1px;
+  color: #f3faff;
+  font-size: 25px;
+}
